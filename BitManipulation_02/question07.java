@@ -2,7 +2,7 @@ public class question07 {
     public static void main(String[] args) {
         int a = 4, b = 2, c = 7;
         int flips = flip(a,b,c);
-        System.out.println(flips);
+        System.out.println(flips);  
         
     }
     public static int flip(int a,int b, int c){
