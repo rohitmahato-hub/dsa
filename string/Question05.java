@@ -27,6 +27,8 @@ public class Question05 {
     //         }
     //     }
     //     return true;
+
+    
     public  static boolean isIsomorphic(String s, String t) {
 
         if(s.length() != t.length()) return false;
