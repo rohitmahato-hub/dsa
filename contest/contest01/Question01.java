@@ -14,7 +14,7 @@ public class Question01 {
         //         }
         //     }
         // }
-        // return res;
+        // return res;   this is brute force
 
         int[] res = new int[nums.length];
         int evenCount = 0;
