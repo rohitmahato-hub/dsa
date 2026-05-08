@@ -18,6 +18,6 @@ public class Question10 {
             right--;
         }
         
-        return ;
+        //return ;
     }
 }
