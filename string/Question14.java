@@ -6,7 +6,8 @@ public class Question14 {
         System.out.println(lengthOfLongestSubstring(s));
     }
     public static int lengthOfLongestSubstring(String s) {
-        
+        //brute force
+
     //   Map<Character,Integer> map = new HashMap<>();
 
     //   int left = 0;
@@ -24,6 +25,8 @@ public class Question14 {
     //     maxLen = Math.max(maxLen, right-left+1); 
     //   }
     //   return maxLen;
+
+// better apporach
 
      HashMap<Character, Integer> map = new HashMap<>();
 
