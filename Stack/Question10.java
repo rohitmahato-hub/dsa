@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class Question10 {
     public static void main(String[] args){
-       int[] asteroids = {5,10,-5};
+       int[] asteroids = {8,5,3,-20};
        int[] res = asteroidCollision(asteroids);
        System.out.println(Arrays.toString(res));
     }
