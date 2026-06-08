@@ -1,4 +1,3 @@
-import java.util.Stack;
 public class Question15 {
     public static void main(String args[]){
         String s = "()))((";
@@ -23,7 +22,7 @@ public class Question15 {
     // }
 
     //without stack
-    public int minAddToMakeValid(String s) {
+    public static int minAddToMakeValid(String s) {
 
         int open = 0;
         int additions = 0;
