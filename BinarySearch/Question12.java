@@ -1,7 +1,7 @@
 public class Question12 {
     public static void main(String[] args) {
-        int[] dist = {1,3,2};
-        int hour = 6;
+        int[] dist = {1,3,2,4};
+        int hour = 3;
         int res = minSpeedOnTime(dist, hour);
 
         System.out.println(res);
