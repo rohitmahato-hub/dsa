@@ -1,0 +1,23 @@
+public class Question03 {
+    public static void main(String[] args) {
+        int n = 5;
+        int res = climbStairs(n);
+        System.out.println(res);
+    }
+     public static int climbStairs(int n) {
+        if (n <= 2) {
+            return n;
+        }
+
+        int prev2 = 1; // Ways to reach step 1
+        int prev1 = 2; // Ways to reach step 2
+
+        for (int i = 3; i <= n; i++) {
+            int current = prev1 + prev2;
+            prev2 = prev1;
+            prev1 = current;
+        }
+
+        return prev1;
+    }
+}
