@@ -20,4 +20,13 @@ public class Question06 {
         memo[m][n] = findPaths(m - 1, n, memo) + findPaths(m, n - 1, memo);
         return memo[m][n];
     }
+
+
+    //recursive approch
+    // public static int uniquePaths(int m, int n) {
+    //     if (m == 1 || n == 1) {
+    //         return 1;
+    //     }
+    //     return uniquePaths(m - 1, n) + uniquePaths(m, n - 1);
+    // }
 }
