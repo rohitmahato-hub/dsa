@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Question07 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1};
+        int[] nums = {1,2,3,1,4};
         int res = rob(nums);
         System.out.println(res);
     }
