@@ -19,7 +19,7 @@ public class Question18 {
         }
 
     }
-    static ListNode deleteDuplicates(ListNode head) {
+    public static ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
