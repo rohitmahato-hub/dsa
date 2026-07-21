@@ -28,7 +28,7 @@ public class Question16 {
             result = result.next;
         }
     }
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         l1 = reverseList(l1);
         l2 = reverseList(l2);
