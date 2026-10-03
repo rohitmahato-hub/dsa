@@ -1,7 +1,7 @@
 public class Question11 {
     public static void main(String args[]){
          int n = 4;
-         System.out.println(new Question11().countGoodNumbers(n));
+         System.out.println( Question11.countGoodNumbers(n));
     }
     public static int countGoodNumbers(long n) {
        long MOD = 1000000007;
